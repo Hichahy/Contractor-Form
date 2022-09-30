@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+$primary-black: #b8b8b8;
+$primary-bacground: #fff;
+$focus-content: #ffa500;
+$form-button: #ffa600ac;
+$error-viewer: #fe3636de;
+
+* {
+  font-family: Rubik, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
