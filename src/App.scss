@@ -1,0 +1,16 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 30px;
+}
+
+/* MOBILE DEVICES */
+
+@media only screen and (max-width: 960px) {
+  .app {
+    height: 100%;
+    padding: 0;
+  }
+}
