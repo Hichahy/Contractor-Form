@@ -39,7 +39,7 @@ export const ContractorForm = () => {
     } else if (selectedValue === "Person" && !inputValue.id) {
       setValidate("Person id required");
     } else if (selectedValue === "Person" && !inputValue.id.match(regId)) {
-      setValidate("Person ID is invalid");
+      setValidate("Person ID requires 11 digits");
     } else if (inputRef?.current?.files?.length == 0) {
       setValidate("Add photo");
     } else {
