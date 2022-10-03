@@ -1,6 +1,6 @@
 # Contractor Form
 
-## project use: <br />
+## to start: <br />
 * git clone (URL) <br />
 * npm install <br />
 * npm start <br />
