@@ -12,3 +12,4 @@
 * eslint <br />
 * stylelint <br />
 * sass <br />
+* resposive <br />
