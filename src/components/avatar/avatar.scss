@@ -1,0 +1,45 @@
+@import "../../variables/colorVariables";
+
+.avatar-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.profile-view {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background: $profil-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  svg {
+    height: 100%;
+    width: 100%;
+    color: $profil-color;
+  }
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-button {
+  background: $focus-content;
+  color: $black-content;
+  position: absolute;
+  bottom: 20px;
+  top: 6rem;
+  border: 2px solid $file-button-border;
+  left: 6rem;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
