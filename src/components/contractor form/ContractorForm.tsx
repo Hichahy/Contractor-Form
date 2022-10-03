@@ -68,7 +68,7 @@ export const ContractorForm = () => {
   useEffect(() => {
     if (validate === "" && submit) {
       axios
-        .post("https://localhost:60001/Contractor/Save", {
+        .post("/Contractor/Save", {
           name: inputValue.name,
           surname: inputValue.surname,
           person: selectedValue,
@@ -161,7 +161,6 @@ export const ContractorForm = () => {
           </div>
           <div>
             <button type="submit" onClick={handleSubmit}>
-              {" "}
               Send it!
             </button>
           </div>
