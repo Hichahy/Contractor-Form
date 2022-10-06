@@ -1,5 +1,5 @@
 import "./App.scss";
-import { ContractorForm } from "./components/contractor form";
+import { ContractorForm } from "./components/contractorForm";
 
 function App() {
   return (
